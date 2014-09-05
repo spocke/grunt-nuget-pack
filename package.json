@@ -3,7 +3,6 @@
 	"version": "0.0.1",
 	"description": "Grunt task for creating nuget packages without using nuget.exe.",
 	"author": "Moxiecode Systems AB <info@moxiecode.com>",
-	"version": "4.0.0",
 	"repository": {
 		"type" : "git",
 		"url" : "https://github.com/spocke/grunt-nuget-pack.git"
