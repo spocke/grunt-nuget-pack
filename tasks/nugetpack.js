@@ -50,6 +50,7 @@ module.exports = function(grunt) {
 
 		try {
 			package.saveAs(packageFilePath, done);
+			grunt.log.ok("Created nupkg file:", packageFilePath);
 		} catch (ex) {
 			grunt.fail.fatal(ex);
 		}
