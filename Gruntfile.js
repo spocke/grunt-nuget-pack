@@ -42,12 +42,14 @@ module.exports = function(grunt) {
 						{id: "dependency9", version: "[1.0,2.0]"}
 					],*/
 					tags: "tag1 tag2 tag3",
+					excludes: ["test/**/*.nuspec"],
 					outputDir: "."
 				},
 
 				files: [
 					{src: "readme.md", dest: "/content/dir1/readme_now.md"},
 					{src: "lib", dest: "/content/dir2/test_lib"},
+					{src: "test", dest: "/content/dir2/test"}
 				]
 			}
 		},

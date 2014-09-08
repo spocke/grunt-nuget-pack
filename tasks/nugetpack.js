@@ -18,6 +18,10 @@ module.exports = function(grunt) {
 			baseDir = process.cwd();
 		}
 
+		if (target.options.excludes) {
+			package.addExcludes(grunt.file.expand(target.options.excludes));
+		}
+
 		this.files.forEach(function(filePair) {
 			filePair.src.forEach(function(src) {
 				var dest = filePair.dest;

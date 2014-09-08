@@ -112,6 +112,12 @@ Type: `string`
 
 A space-delimited list of tags and keywords that describe the package. This information is used to help make sure users can find the package using searches in the Add Package Reference dialog box or filtering in the Package Manager Console window.
 
+#### excludes
+
+Type: `array`
+
+Array with glob patterns to exclude from the output package. Try to make the glob pattern as exact as possible for performance reasons.
+
 #### outputDir
 
 Type: `string`
@@ -177,6 +183,7 @@ grunt.initConfig({
 					{id: "dependency2", version: "1.0"}
 				],
 				tags: "tag1 tag2 tag3",
+				excludes: ["js/**/*.dev.js"],
 				outputDir: "out"
 			},
 
