@@ -2,7 +2,7 @@ var Package = require("../lib/Package");
 var path = require("path");
 
 module.exports = function(grunt) {
-	grunt.registerMultiTask("nugetpack", function() {
+	grunt.registerMultiTask("nugetpack", "Creates nupkg packages.", function() {
 		var done = this.async(), target = grunt.config([this.name, this.target]);
 		var packageFilePath, baseDir, package;
 
