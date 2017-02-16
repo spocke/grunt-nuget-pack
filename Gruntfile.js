@@ -30,7 +30,7 @@ module.exports = function(grunt) {
 					licenseUrl: "http://www.moxiecode.com/license",
 					copyright: "Copyright",
 					requireLicenseAcceptance: true,
-					/*dependencies: [
+					dependencies: [
 						{id: "dependency1"},
 						{id: "dependency2", version: "(1.0,)"},
 						{id: "dependency3", version: "1.0"},
@@ -39,8 +39,10 @@ module.exports = function(grunt) {
 						{id: "dependency6", version: "[1.0]"},
 						{id: "dependency7", version: "(1.0,)"},
 						{id: "dependency8", version: "(1.0,2.0)"},
-						{id: "dependency9", version: "[1.0,2.0]"}
-					],*/
+						{id: "dependency9", version: "[1.0,2.0]"},
+						{id: "dependency10", version: "[1.9.1,4)"},
+						{id: "dependency11", version: "2.0.1"}
+					],
 					tags: "tag1 tag2 tag3",
 					excludes: ["test/**/*.nuspec"],
 					outputDir: "."
