@@ -5,27 +5,28 @@
 	"author": "Moxiecode Systems AB <info@moxiecode.com>",
 	"license": "MIT",
 	"repository": {
-		"type" : "git",
-		"url" : "https://github.com/spocke/grunt-nuget-pack.git"
+		"type": "git",
+		"url": "https://github.com/spocke/grunt-nuget-pack.git"
 	},
 	"bugs": {
-		"url" : "https://github.com/spocke/grunt-nuget-pack/issues"
+		"url": "https://github.com/spocke/grunt-nuget-pack/issues"
 	},
 	"keywords": [
 		"gruntplugin",
 		"nuget"
-  	],
+	],
 	"main": "tasks/nugetpack.js",
 	"engines": {
-		"node" : ">=0.8.0"
+		"node": ">=0.8.0"
 	},
 	"dependencies": {
-		"xml-writer": "~1.4.2",
-		"moxie-zip": "~0.0.3"
+		"moxie-zip": "~0.0.3",
+		"xml-writer": "~1.7.0"
 	},
 	"devDependencies": {
-		"grunt": "~0.4.5",
-		"grunt-contrib-clean": "~0.6.0",
-		"load-grunt-tasks": "0.6.0"
+		"grunt": "~1.6.1",
+		"grunt-cli": "^1.4.3",
+		"grunt-contrib-clean": "~2.0.1",
+		"load-grunt-tasks": "5.1.0"
 	}
 }
