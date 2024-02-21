@@ -1,6 +1,6 @@
 {
 	"name": "grunt-nuget-pack",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Grunt task for creating nuget packages without using nuget.exe.",
 	"author": "Moxiecode Systems AB <info@moxiecode.com>",
 	"license": "MIT",
